@@ -13,23 +13,25 @@ Anaconda - Python 3.7
 
 ### Step 4: Use len to count number of words.
 
-### Step 5: Give print.
+### Step 5: Print the word count using the print statement
 
 ### Step 6: End of the program.
 
 ## PROGRAM:
 ```python
+Developed by: S.Shanmathi
+RegisterNumber: 22003171
 import sys
 count= 0
 with open(sys.argv[1],'r') as f1:
     for line in f1:
         word= line.split()
         count += len(word)
-print("word count in file = ",count)
+print("word count in file = ",count)
 ```
 
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/121243595/214910405-51b6e9a8-ffb5-4de2-97d1-bc24bbda3364.png)
+![5b](https://user-images.githubusercontent.com/121243595/215336625-cc8474db-2824-42f6-ad5d-fee78deff5c8.jpg)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.

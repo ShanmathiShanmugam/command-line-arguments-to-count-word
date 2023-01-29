@@ -19,8 +19,8 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 ```python
-Developed by: S.Shanmathi
-RegisterNumber: 22003171
+#Developed by: S.Shanmathi
+#RegisterNumber: 22003171
 import sys
 count= 0
 with open(sys.argv[1],'r') as f1:
